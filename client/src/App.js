@@ -1,26 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import EventCard from './components/EventCard';
+import EventCard2 from './components/EventCard2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      	<EventCard />
+		<EventCard2 />
     </div>
   );
 }
 
 export default App;
+
+// EventBrite API Key: 54X3U4A6HGPZPWVA5UCM
